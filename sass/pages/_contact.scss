@@ -1,0 +1,27 @@
+.form-page {
+    display: flex;
+    margin: 2em;
+    justify-content: center;
+    height: 60vh;
+    width: 90vw;
+    gap: 2em;
+
+
+    @media screen and (max-width:768px) {
+        flex-direction: column;
+        justify-content: center;
+        width: 95vw;
+        margin: auto;
+        height: auto;
+        align-items: center;
+}
+}
+
+
+
+.contact-head {
+    margin: 1em auto;
+    font-size: 3em;
+    width: 90vw;
+}
+

@@ -1,0 +1,37 @@
+footer {
+    background-color: var(--dark1);
+    color: var(--light1);
+
+    .links {
+        display: flex;
+        width: 90%;
+        margin: 1em auto;
+        padding: 1em;
+        list-style: none;
+        
+        div {
+            width: 30%;
+            margin: 0.2em auto;
+        }
+    }
+
+    .copyright{
+        border-top: 1px solid;
+        padding: 1em;
+        text-align: center;
+    }
+
+    @media screen and (max-width:768px) {
+        .links {
+            flex-direction: column;
+        
+
+            div {
+                width: 90%;
+                border: 1px solid whitesmoke;
+                padding: 0.5em;
+            }
+
+        }
+    }
+}

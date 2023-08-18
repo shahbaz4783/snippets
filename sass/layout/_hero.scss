@@ -1,0 +1,61 @@
+.heroSection {
+    margin: 1.5em;
+
+    .intro {
+        width: 35%;
+        margin: 1em 6em;
+    }
+
+    .tagline {
+        font-size: 3em;
+        margin: 2em;
+        h1 {
+            margin: 0;
+        }
+    }
+
+    .beliefs {
+        display: flex;
+        gap: 1em;
+        justify-content: center;
+
+        div {
+            width: 16%;
+
+            h3 {
+                color: rgb(200, 200, 125);
+                margin: 0;
+            }
+
+            p {
+                font-size: 1.6em;
+            }
+        }
+    }
+
+      @media screen and (max-width:768px) {
+        .intro {
+            width: 100%;
+            margin: 0;
+        }
+
+        .tagline {
+            font-size: 2em;
+            margin: 1em 0;
+
+            h1 {
+                margin: 0.5em 0;
+            }
+        }
+
+        .beliefs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            div {
+                width: 90%;
+            }
+        }
+
+    }
+}

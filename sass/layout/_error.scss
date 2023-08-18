@@ -1,0 +1,17 @@
+.errorPage {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10em auto;
+
+    h1 {
+        font-size: 6em;
+        margin: 0;
+        font-family: var(--numbers);
+    }
+
+    p {
+        color: gray;
+    }
+}
